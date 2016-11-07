@@ -98,7 +98,7 @@ class Giphy extends Component {
       <div>
         <h1>Giphy</h1>
         <input type="text" placeholder="Batman" value={search} onChange={this._onInputChange} />
-        <button onClick={() => fetchGiphy(search)}>Fetch</button>
+        <button onClick={() => fetchGiphy(search)}>Search</button>
         <span>  Filter by rating: </span>
         <select onChange={this._onRatingChange}>
           <optgroup label="Giphy Ratings">
