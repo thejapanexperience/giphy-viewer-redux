@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Giphy from './Giphy';
 
 export default class Layout extends Component {
   render() {
     return (
-      <div className='container'>
-        <h1 className='text-center'>React Webpack</h1>
+      <div className="container">
+        <h1 className="text-center">Giphy Viewer</h1>
+        <Giphy />
       </div>
-    )
+    );
   }
 }
