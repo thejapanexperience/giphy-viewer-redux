@@ -57,6 +57,7 @@ class Giphy extends Component {
          gif.rating === rating
       );
     }
+    console.log('rated: ', rated);
 
     if (oneBool === true) {
       let giphySource;
@@ -77,7 +78,7 @@ class Giphy extends Component {
         </div>);
     }
 
-    if (rated.length > 1 && oneBool === false) {
+    if (rated.length > 0 && oneBool === false) {
       gifs =
         (
           <div>
